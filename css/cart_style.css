@@ -1,0 +1,19 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Cera, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+.bground{
+	height: 100vh;
+	background-image: url("../img/bgimg.png");
+  	background-repeat: no-repeat;
+  	background-size: cover;
+	justify-content: flex-end;
+	display: flex;
+}
+.cart{
+	background-color: white;
+}
+.left-right{
+	display: flex;
+}

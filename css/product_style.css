@@ -9,7 +9,7 @@
 	padding-top: 10px;
 }
 .prod-middle{
-	padding: 30px 25px 0px 0px;
+	padding: 20px 25px 0px 0px;
 }
 .prod-right{
 	padding: 30px 60px 0px 12px;
@@ -97,6 +97,9 @@
 	box-shadow: 0px 2px #bfbdbe; 
 	opacity: .7;
 }
+.delivery:focus{
+	outline: none;
+}
 .extramenu{
 	padding: 10px 90px 20px 0px;
 	border-bottom: 1px solid #cfcfd1;
@@ -120,4 +123,10 @@
 }
 .description{
 	font-size: 14px;
+	
+	display: flex;
+	align-items: center;
+}
+.description h4{
+	padding: 5px 0px 0px 20px;
 }
