@@ -35,7 +35,7 @@ marquee{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;	
-	border-bottom: 3px solid #e1e7ed;
+	border-bottom: 1px solid #e1e7ed;
 	white-space: nowrap;
 	background-color: white;
 }
