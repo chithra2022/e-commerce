@@ -1,0 +1,89 @@
+.header-help{
+	padding: 0px 80px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.helpcenter{
+	padding-right: 50px;
+	font-size: 14px;
+}
+.second-header, .category-title{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 25px;
+}
+.second-header{
+	background-color: #1e1f1d;
+}
+.helpsearch{
+	padding: 10px;
+	width: 450px;
+	border: none;
+	font-size: 15px;
+}
+.helpsubmit{
+	padding: 10px;
+	background-color: grey;
+	border: none;
+	width: 130px;
+	font-size: 15px;
+	color: white;
+}
+.category-title{
+	font-size: 30px;
+}
+.helprow{
+	padding: 30px 190px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.helprow2{
+	padding: 30px 190px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.block-label{
+	font-size: 15px;
+	text-align: center;
+}
+.block{
+	padding: 0px 30px;
+}
+.nykaemail{
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	padding: 35px;
+	justify-content: center;
+	display: flex;
+	margin: 20px 90px 0px 90px;
+}
+.con-footer, .last{
+	justify-content: space-between;
+	display: flex;
+	padding: 30px 90px;
+	border-bottom: 2px solid black;
+}
+.last{
+	align-items: center;
+	border: none;
+}
+.last img{
+	vertical-align: middle;
+}
+#nykaa{
+	font-size: 14px;
+	color: #343635;
+}
+.fot-block h4{
+	font-size: 20px;
+	font-weight: 500;
+	padding-bottom: 10px;
+}
+.fot-block p{
+	font-size: 13px;
+	color: #343635;
+}

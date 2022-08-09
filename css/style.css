@@ -36,7 +36,7 @@ marquee{
 	justify-content: space-between;
 	align-items: center;	
 	border-bottom: 1px solid #e1e7ed;
-	white-space: nowrap;
+	/*white-space: nowrap;*/
 	background-color: white;
 }
 .logo{
@@ -53,12 +53,15 @@ marquee{
 	background-color: #edebe8;
 	color: #f57505;
 }
+.logo a:hover{
+	background-color: white;
+}
 .search-input{
 	padding: 6px;
 	font-size: 15px;
 	border: none;
 	box-shadow: 0px 3px #bfbdbe;
-	width: 220px;
+	/*width: 220px;*/
 }
 .search-input:focus{
 	outline:none;
@@ -177,7 +180,7 @@ marquee{
 	cursor: pointer;
 }
 .footer h5{
-	padding: 30px 250px 20px 150px;
+	padding: 30px 200px 20px 150px;
 }
 .footer a{
 	text-decoration: none;
@@ -197,6 +200,10 @@ marquee{
 	justify-content: space-between;
 	padding: 30px 100px 30px 100px;
 	cursor: pointer;
+}
+.content a{
+	text-decoration: none;
+	color: black;
 }
 .content h5{
 	font-weight: 545;
@@ -218,4 +225,14 @@ marquee{
 	padding: 14px;
 	text-align: center;
 	color: white;
+}
+@media only screen and (max-width: 1100px){
+	.header a{
+		padding: 5px;
+		font-size: 14px;
+		
+	}
+	.container{
+		/*overflow-x: hidden;*/
+	}
 }
