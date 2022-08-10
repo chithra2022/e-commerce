@@ -36,11 +36,13 @@ marquee{
 	justify-content: space-between;
 	align-items: center;	
 	border-bottom: 1px solid #e1e7ed;
-	/*white-space: nowrap;*/
 	background-color: white;
 }
+.mobmenu{
+	padding-left: 40px;
+}
 .logo{
-	padding: 20px 0px 20px 40px;
+	padding: 20px 0px 20px 0px;
 }
 .header a{
 	text-decoration: none;
@@ -61,7 +63,6 @@ marquee{
 	font-size: 15px;
 	border: none;
 	box-shadow: 0px 3px #bfbdbe;
-	/*width: 220px;*/
 }
 .search-input:focus{
 	outline:none;
@@ -76,7 +77,9 @@ marquee{
 	opacity: .7;
 }
 .right{
-	padding-right: 10px;	
+	padding-right: 10px;
+	display: flex;
+	align-items: center;	
 }
 .layer-first{
 	justify-content: space-between;
@@ -226,13 +229,90 @@ marquee{
 	text-align: center;
 	color: white;
 }
+@media only screen and (max-width: 1500px){
+	.mobmenu{
+		visibility: hidden;
+	}
+}
 @media only screen and (max-width: 1100px){
 	.header a{
 		padding: 5px;
-		font-size: 14px;
-		
+		font-size: 14px;	
 	}
-	.container{
-		/*overflow-x: hidden;*/
+	.marq{
+		display: none;
+	}
+	.right{
+		padding-right: 10px;	
+	}
+	.logo{
+		padding: 20px 0px 20px 20px;
+	}
+}
+@media only screen and (max-width: 800px){
+	.footer h5{
+		padding: 30px 80px 20px 80px;
+	}
+	.content{
+		padding: 30px 40px;
+	}
+	.footer-middle-bottom{
+		padding: 40px;
+	}
+	.mobmenu{
+		visibility: visible;
+	}
+	.menu, .rightmob{
+		display: none;
+	}
+	.header{
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	.search-input{
+		width: 100%;
+	}
+	.search-icon{
+		position: relative;
+		bottom: 20px;
+		left: 200px;
+	}
+	.right img{
+		padding: 0px 10px;
+	}
+}
+@media only screen and (max-width: 500px){
+	.right{
+		display: none;
+	}
+	.header{
+		padding: 0px;
+	}
+	.content{
+		padding: 30px 2px;
+	}
+	.footer h5{
+		padding: 30px 2px 20px 2px;
+		font-size: 10px;
+	}
+	.footer img{
+		width: 100px;
+	}
+	.search-icon{
+		display: none;
+	}
+	.search-input{
+		width: 80%;
+		font-size: 13px;
+	}
+	.footer-middle-bottom{
+		display: none;
+	}
+	.content{
+		padding: 30px 0px;
+		font-size: 11px;
+	}
+	.footer-bottom{
+		font-size: 12px;
 	}
 }

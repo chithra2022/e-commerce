@@ -73,3 +73,37 @@ a:hover{
 .left-log .new-ac{
 	font-size: 13px;
 }
+@media only screen and (max-width: 1500px){
+	.left-log{
+		padding: 20px 80px 20px 40px;
+	}
+}
+@media only screen and (max-width: 1100px){
+	.left-log{
+		padding: 10px 50px 10px 30px;
+	}
+	.mob-input{
+		margin-top: 20px;
+	}
+	.left-log h4{
+		font-size: 14px;
+	}
+	.left-log h2{
+		font-size: 20px;
+	}
+}
+@media only screen and (max-width: 800px){
+	.left-log{
+		padding: 10px 30px 10px 30px;
+	}
+	.mob-input{
+		margin-top: 20px;
+		padding: 12px;
+		width: 290px;
+	}
+	.submit{
+		width: 310px;	
+		padding: 10px;
+		margin-top: 30px;
+	}
+}
