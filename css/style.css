@@ -134,6 +134,7 @@ marquee{
 	padding-top: 5px;
 	padding-bottom: 50px;
 	justify-content: center;
+	white-space: nowrap;
 }
 .layer-four-label h3{
 	padding:0px 100px;
@@ -248,6 +249,34 @@ marquee{
 	.logo{
 		padding: 20px 0px 20px 20px;
 	}
+	.layer-first img{
+		width: 120px;
+	}
+	.layer-first{
+		padding: 20px 30px 0px 70px;
+	}
+	.label{
+		padding: 10px 65px 20px 100px;
+		font-size: 15px;
+	}
+	.layer-four img{
+		width: 220px;
+	}
+	.layer-four-label h3{
+		padding:0px 60px;	
+	}
+	.layer-five img{
+		width: 270px;	
+	}
+	.layer-four #noimg{
+		display: none;
+	}
+	.layer-four span{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-wrap: wrap;
+	}
 }
 @media only screen and (max-width: 800px){
 	.footer h5{
@@ -279,6 +308,24 @@ marquee{
 	}
 	.right img{
 		padding: 0px 10px;
+	}
+	.layer-first{
+		padding-left: 10px;
+	}
+	.label{
+		padding-left: 40px;
+	}
+	.layer-first #no, .label #no{
+		display: none;
+	}
+	.layer-four .brndimg{
+		width: 180px;
+	}
+	.layer-four-label h3{
+		padding:0px 40px;	
+	}
+	.layer-five img{
+		width: 220px;	
 	}
 }
 @media only screen and (max-width: 500px){
@@ -314,5 +361,45 @@ marquee{
 	}
 	.footer-bottom{
 		font-size: 12px;
+	}
+	.layer-first{
+		flex-wrap: wrap;
+		padding-left: 20px;
+	}
+	.layer-first img{
+		width: 100px;
+	}
+	.label, .layer-four-label{
+		display: none;
+	}
+	.layer-third h2,h1{
+		font-size: 19px;
+	}
+	.layer-four, .layer-five{
+		flex-wrap: wrap;
+	}
+	.layer-four span img{
+		width: 270px;
+	}
+	.layer-five{
+		padding: 0px;
+	}
+	.layer-five img{
+		width: 270px;
+		padding-bottom: 10px;
+	}
+	.layer-four img{
+		padding-bottom: 10px;
+	}
+	.layer-six h4{
+		font-size: 14px;
+	}
+}
+@media only screen and (max-width: 380px){
+	.layer-first img{
+		width: 80px;
+	}
+	.layer-four .brndimg{
+		width: 140px;
 	}
 }

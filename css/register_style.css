@@ -30,3 +30,13 @@
 		padding: 10px;
 	}	
 }
+@media only screen and (max-width: 500px){
+	.pwd{
+		margin-top: 15px;
+		width: 200px;
+	}
+	.register{
+		width: 200px;
+		padding: 10px;
+	}	
+}

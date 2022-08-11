@@ -107,3 +107,24 @@ a:hover{
 		margin-top: 30px;
 	}
 }
+@media only screen and (max-width: 500px){
+	.left-log{
+		padding: 20px 0px 20px 20px;
+	}
+	.right-log{
+		padding: 0px;
+	}
+	.right-log img{
+		width: 50px;
+	}
+	.mob-input{
+		padding: 10px;
+		width: 230px;
+	}
+	.submit{
+		width: 250px;	
+	}
+	.bg{
+		background-image: none;
+	}
+}
