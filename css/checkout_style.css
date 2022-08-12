@@ -1,0 +1,219 @@
+.payflow{
+	display: flex;
+	align-items: center;
+	padding-left: 400px;	
+}
+.header-checkout{
+	display: flex;
+	align-items: center;	
+	border-bottom: 3px solid #e1e7ed;
+	white-space: nowrap;
+	background-color: white;
+}
+.flowname{
+	font-size: 14px;
+	color: grey;
+}
+.flowname3{
+	font-size: 14px;
+}
+.methodtitle{
+	padding: 30px 0px 0px 90px;
+	color: #303030;
+}
+.paydiv{
+	display: flex;
+	padding: 20px 90px 40px 90px;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+.leftpaymethod, .topdiv, .bottomdiv, .midpaymethod{
+	border: 1px solid #bdbfbe;
+}
+.midpaymethod, .typerow1{
+	padding: 10px;
+}
+.typerow{
+	border-top: 1px solid #dedfe0;
+	padding: 15px 10px;
+}
+.typerow2{
+	border-bottom: 1px solid #dedfe0;
+	padding: 10px 0px 15px 10px;
+}
+#credit{
+	font-weight: bold;
+	font-size: 15px;
+	padding-right: 120px;
+}
+.typerow h4, #rbi, #exp{
+	font-weight: 500;
+	font-size: 15px;
+	color: #4b4c4d;
+}
+#exp{
+	padding: 0px 15px; 
+	color: grey;
+}
+.imgdesc{
+	display: flex;
+}
+.rightpaymethod{
+	justify-content: space-between;
+}
+.summary-mainrow{
+	color: #303030;
+	font-size: 15px;
+	font-weight: bold;
+	padding: 5px 0px;	
+}
+.pricesummary, .grand{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 10px;
+}
+.psum, .grand{
+	font-size: 14px;
+}
+.grand{
+	font-weight: bold;
+	border-top: 1px solid #bdbfbe;
+	padding: 10px 0px;
+}
+.grandlabel{
+	padding-right: 200px;
+}
+.cardnum, .cardnum1{
+	padding: 6px;
+	font-size: 15px;
+	border: none;
+	box-shadow: 0px 1px #bfbdbe;
+	width: 430px;
+	margin: 20px 10px 10px 10px;
+}
+.cardnum1{
+	width: 100px;
+}
+.checkbox{
+	margin: 15px 0px 15px 15px;
+}
+.paymoney{
+	width: 420px;
+	background-color: black;
+	font-size: 15px;
+	color: white;
+	padding: 12px;
+	font-weight: bold;
+	margin: 20px 0px 0px 15px;
+}
+.midpaymethod img{
+	vertical-align: middle;
+}
+.topdiv, .bottomdiv{
+	padding: 20px;
+}
+.bottomdiv{
+	margin-top: 15px;
+}
+.bottomdiv h6{
+	color: #f55371;
+	padding: 10px 0px 0px 270px;
+}
+.paymntfoot{
+	background-color: #f3f5e6;
+	display: flex;
+	justify-content: center;
+	padding: 10px;
+	align-items: center;
+	font-size: 14px;
+	color: grey;
+}
+.leftmidblock{
+	display: flex;
+}
+@media only screen and (max-width: 1100px){
+	.paydiv{
+		padding: 20px 50px 40px 50px;
+	}
+	.paymoney{
+		width: 360px;
+	}
+	.topdiv{
+		width: 250px;
+	}
+	.grandlabel{
+		padding-right: 150px;
+	}
+	.midpaymethod{
+		padding: 5px;
+		margin: 0px 20px;
+	}
+	#exp{
+		font-size: 14px;
+	}
+	.cardnum1{
+		width: 80px;
+	}
+	.cardnum{
+		width: 370px;
+	}
+	.bottomdiv h6{
+		padding: 10px 0px 0px 200px;
+	}
+	.payflow{
+		padding-left: 300px;	
+	}
+}
+@media only screen and (max-width: 800px){
+	.leftpaymethod{
+		width: 200px;
+	}
+	.paydiv{
+		flex-wrap: wrap;
+	}
+	.rightpaymethod{
+		display: flex;
+		align-items: flex-start;
+		margin-top: 30px;
+	}
+	.methodtitle{
+		padding: 30px 50px;
+	}
+	.bottomdiv{
+		margin-left: 35px;
+	}
+}
+@media only screen and (max-width: 500px){
+	.paydiv, .rightpaymethod{
+		flex-wrap: wrap;
+		padding: 20px 0px 40px 0px;
+		display: flex;
+		justify-content: center;
+	}
+	.midpaymethod{
+		margin: 25px 0px 0px 0px;
+	}
+	.cardnum1{
+		width: 30px;
+	}
+	.cardnum, .paymoney{
+		width: 230px;
+	}
+	.payflow{
+		padding-left: 0px;	
+	}
+	.flowname, .flowname3{
+		font-size: 9px;
+	}
+	.bottomdiv{
+		margin-left: 0px;
+		padding: 0px;
+	}
+	#exp{
+		font-size: 10px;
+	}
+	#rbi{
+		font-size: 13px;
+	}
+}

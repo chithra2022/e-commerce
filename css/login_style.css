@@ -1,0 +1,130 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: Cera, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+.bg{
+	height: 100vh;
+	background-image: url("../img/bgimg.png");
+  	background-repeat: no-repeat;
+  	background-size: cover;
+	justify-content: center;
+	align-items:center;
+	display: flex;	
+}
+.login{
+	display: flex;
+	background-color: white;
+}
+.left-log{
+	padding: 50px 80px 60px 40px;
+}
+.left-log h2{
+	padding: 25px 0px;
+	color: #474a48;
+}
+.left-log h4{
+	font-weight: 500;
+	color: #474a48;
+	font-size: 15px;
+}
+.left-log p{
+	font-size: 11px;
+	color: #474a48;
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+.right-log{
+	padding: 0px 0px 0px 80px;
+}
+.submit{
+	width: 350px;
+	background-color: black;
+	font-size: 15px;
+	color: white;
+	padding: 12px;
+	font-weight: bold;
+	opacity: .3;
+	margin-top: 40px;
+	cursor: pointer;
+}
+.mob-input{
+	margin-top: 30px;
+	width: 320px;
+	border: none;
+	background-color: #e6f7ea;
+	padding: 14px;
+	font-size: 16px;
+	box-shadow: 0px 2px #bfbdbe; 
+}
+.mob-input:focus{
+	outline: none;
+}
+a{
+	color: #fa6305;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 15px;
+	padding-left: 7px;
+}
+a:hover{
+	color: blue;
+}
+.left-log .new-ac{
+	font-size: 13px;
+}
+@media only screen and (max-width: 1500px){
+	.left-log{
+		padding: 20px 80px 20px 40px;
+	}
+}
+@media only screen and (max-width: 1100px){
+	.left-log{
+		padding: 10px 50px 10px 30px;
+	}
+	.mob-input{
+		margin-top: 20px;
+	}
+	.left-log h4{
+		font-size: 14px;
+	}
+	.left-log h2{
+		font-size: 20px;
+	}
+}
+@media only screen and (max-width: 800px){
+	.left-log{
+		padding: 10px 30px 10px 30px;
+	}
+	.mob-input{
+		margin-top: 20px;
+		padding: 12px;
+		width: 290px;
+	}
+	.submit{
+		width: 310px;	
+		padding: 10px;
+		margin-top: 30px;
+	}
+}
+@media only screen and (max-width: 500px){
+	.left-log{
+		padding: 20px 0px 20px 20px;
+	}
+	.right-log{
+		padding: 0px;
+	}
+	.right-log img{
+		width: 50px;
+	}
+	.mob-input{
+		padding: 10px;
+		width: 230px;
+	}
+	.submit{
+		width: 250px;	
+	}
+	.bg{
+		background-image: none;
+	}
+}

@@ -1,34 +1,44 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Fashion Hub</title>
+		<title>Nykaa Fashion</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="icon" href="img/">
+		<link rel="icon" href="img/icon.png">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<link rel="stylesheet" type="text/css" href="asset/icons.css">
 	</head>
 	<body>
 		<div class="container">
-			<div class="header">
-				<div class="logo">
-					<h1>Fashion Hub</h1>
+			<div class="topbar">
+				<div class="marq">
+					<marquee>Download the Nykaa Fashion App & Get ₹250 off* | Use Code - NF250</marquee>
+					<img src="img/app.png"><a href="#">App Download</a>
 				</div>
-				<div class="menu">
-					<a href="#">Women</a>
-					<a href="#">Men</a>
-					<a href="#">Kids</a>
-					<a href="#">Home</a>
-					<a href="#">Tech</a>
-					<a href="#">More</a>
-				</div>
-				<div class="search">
-					<input type="text" class="search-input" placeholder="search">
-					<img src="img/search.png" class="search-icon">
-				</div>
-				<div class="right">
-					<a href="#"><img src="img/account.png" class="material-icons"> Account</a>
-					<a href="#"><img src="img/wish.png" class="material-icons"> Wishlist</a>
-					<a href="#"><img src="img/cart.png" class="material-icons"> Cart</a>
+				<div class="header">
+					<div class="mobmenu">
+						<span class="material-icons">menu</span>
+					</div>
+					<div class="logo">
+						<a href="home.html"><img src="img/logo.png"></a>
+					</div>
+					<div class="menu">
+						<a href="#">Women</a>
+						<a href="#">Men</a>
+						<a href="listing.html">Kids</a>
+						<a href="#">Home</a>
+						<a href="#">Tech</a>
+						<a href="#">All Brands</a>
+						<a href="#">More</a>
+					</div>
+					<div class="search">
+						<input type="text" class="search-input" placeholder="Search for products">
+						<img src="img/search.png" class="search-icon">
+					</div>
+					<div class="right">
+						<a href="login.html"><img src="img/account.png" class="material-icons"> <span class="rightmob">Account</span></a>
+						<a href="#"><img src="img/wish.png" class="material-icons"> <span class="rightmob">Wishlist</span></a>
+						<a href="cart.html"><img src="img/cart.png" class="material-icons"> <span class="rightmob">Cart</span></a>
+					</div>
 				</div>
 			</div>
 			<div class="layer-first">
@@ -38,7 +48,7 @@
 				<img src="img/kid.png">
 				<img src="img/home.png">
 				<img src="img/lux.png">
-				<img src="img/tech.png">	
+				<img src="img/tech.png" id="no">	
 			</div>
 			<div class="label">
 				<h2>Sale</h2>
@@ -47,7 +57,7 @@
 				<h2>Kids</h2>
 				<h2>Home</h2>
 				<h2>Luxe</h2>
-				<h2>Tech</h2>
+				<h2 id="no">Tech</h2>
 			</div>
 			<div class="layer-second">
 				<img src="img/image2.png" class="demo">
@@ -57,10 +67,10 @@
 				<h1>Level up your fashion game</h1>	
 			</div>
 			<div class="layer-four">
-				<img src="img/pic1.png">
-				<img src="img/pic5.png">
-				<img src="img/pic3.png">
-				<img src="img/pic2.png">
+				<img src="img/pic1.png" class="brndimg">
+				<img src="img/pic5.png" class="brndimg">
+				<img src="img/pic3.png" class="brndimg">
+				<img src="img/pic2.png" class="brndimg">
 			</div>
 			<div class="layer-four-label">
 				<h3>Starting at 799</h3>
@@ -82,16 +92,35 @@
 				<img src="img/cap5.png">
 			</div>
 			<div class="layer-third">
+				<h2>MOST LOVED BRANDS</h2>
+				<h1>Your wardrobe must-haves</h1>	
+			</div>
+			<div class="layer-four">
+				<span><img src="img/brand1.png">
+				<img src="img/brand2.png">
+				<img src="img/brand3.png">
+				<img src="img/brand4.png">
+				<img src="img/brand5.png">
+				<img src="img/brand6.png"></span>
+			</div>
+			<div class="layer-row">
+				<div class="layer-third">
+					<h2>HOUSE OF NYKAA FASHION</h2>
+					<h1>Shop our very own labels</h1>	
+				</div>
+				<img src="img/rowimg.png">
+			</div>
+			<div class="layer-third">
 				<h1>Everything for your everyday need!!</h1>	
 			</div>
 			<div class="layer-six">
-				<h4>Fashion Hub will never contact their customers for cash prizes or request passwords/pins/CVV. Please <br> refrain from sharing 				such confidential information with anyone, as this can result in fraudulent transactions.</h4>
+				<h4>Nykaa Fashion will never contact their customers for cash prizes or request passwords/pins/CVV. Please <br> refrain from sharing 					such confidential information with anyone, as this can result in fraudulent transactions.</h4>
 			</div>
 			<div class="layer-seven">
-				<h5>SUSTAINABILITY & FASHION HUB</h5>
-				<p>Fashion Hub is making every effort to bring sustainable fashion into the limelight through its special edit -The Responsible 					Collection. It features a mix of sustainability-focused labels from both popular and upcoming labels. These carefully curated 						brands represent the advocates of sustainable fashion that focus on using organic materials, recycled products, and upcycled 						products for sustainable development.</p>
+				<h6>SUSTAINABILITY & NYKAA FASHION</h6>
+				<p>Nykaa Fashion is making every effort to bring sustainable fashion into the limelight through its special edit -The Responsible 					Collection. It features a mix of sustainability-focused labels from both popular and upcoming labels. These carefully curated 						brands represent the advocates of sustainable fashion that focus on using organic materials, recycled products, and upcycled 						products for sustainable development.</p>
 
-				<h5>STYLE INSPIRATION - LATEST FASHION TRENDS</h5>
+				<h6>STYLE INSPIRATION - LATEST FASHION TRENDS</h6>
 				<p>From traditional Indian wear to contemporary and into-western wear, Fashion Hub brings you the latest in fashion in an array of 					styles. While there are plenty of trends to look out for, the world of fashion is greatly inspired by comfortable clothing.
 				Comfortable clothing has become a trend itself and it is certainly here to stay. Fashion Hub has a special Minimal Utility collection 					from Twenty Dresses that offers a winning combination of style and comfort. So get ready for the ease of movement while being your 					stylish best in dresses made from breathable fabrics with the finest details and soothing hues.</p>
 			</div>
@@ -99,13 +128,13 @@
 				<h5>DOWNLOAD  OUR  APP<br>
 				<img src="img/footimg1.png">
 				<img src="img/footimg2.png" class="fotimg"></h5>
-				<h5>For Queries:<a href="contact.html"><br><br>CONTACT US</a></h5>
+				<h5>For Queries:<br><br>18002663333 | support@nykaafashion.com</br>(Monday to Saturday, 10AM - 7PM)</h5>
 			</div>
 			<div class="footer-middle">
 				<div class="content">
 					<h5>WHO ARE WE<br><br>
-					About Us<br><br>Careers<br><br/>Press</h5>
-					<h5>HELP<br><br>
+					About Us</br><br>Careers<br><br/>Press</h5>
+					<h5><a href="contact.html">HELP</a><br><br>
 					Shipping & Return Policy<br><br>Help<br><br>CenterTerms & Conditions</h5>
 					<h5><br><br>Privacy Policy<br><br>Responsible Disclosure</h5>
 					<h5>QUICK LINKS<br><br>
@@ -116,7 +145,7 @@
 			</div>
 			<div class="footer-middle-bottom">
 				<h5>Indianwear<br><br>Westernwear<br><br>Bags<br><br>Footwear<br><br>Jewellery<br><br>Sportswear</h5>
-				<h5>Luxury Ethnic Wear<br><br>Luxury Westernwear<br><br>Luxury Footwear<br><br>Luxury Bags<br><br>Luxury Accessories<br><br>Luxury 				Watches</h5>
+				<h5>Luxury Ethnic Wear<br><br>Luxury Westernwear<br><br>Luxury Footwear<br><br>Luxury Bags<br><br>Luxury Accessories<br><br>Luxury 					Watches</h5>
 				<h5>Topwear<br><br>Bottomwear<br><br>Ethnicwear<br><br>Feeding<br><br>Accessories<br><br>Innerwear & Sleepwear</h5>
 				<h5>Sleep & Lounge<br><br>Toys & Games<br><br>Summer Collection<br><br>Luxury Dresses<br><br>Luxury Home<br><br>Jewellery</h5>
 				<h5>Ethnicwear<br><br>Westernwear<br><br>Bags<br><br>Footwear<br><br>Sportswear<br><br>Sportswear</h5>
