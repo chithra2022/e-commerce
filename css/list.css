@@ -200,7 +200,14 @@ del .rupee{
 }
 @media only screen and (max-width: 350px){
 	.item img{
-		width: 100px;
-		padding: 3px;
+		width: 240px;
+	}
+	.list-row{
+		flex-wrap: wrap;
+		display: flex;
+		justify-content: center;
+	}
+	.middle{
+		padding: 20px;
 	}
 }
